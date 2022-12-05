@@ -14,8 +14,8 @@ export const Counter2=()=>{
     },[count])
     return(
         <div>
-            {/* //Print the Even value to change the color blue// */}
-            {/* //print the odd value to change the color orange// */}
+            {/* //to Print the Even value to change the color blue// */}
+            {/* //to print the odd value to change the color orange// */}
             <h1>Counter 2.O</h1>
             <h1 style={{color: data}}>{count}</h1>
             <button onClick={()=>setCount(count+1)}>Increment</button>
