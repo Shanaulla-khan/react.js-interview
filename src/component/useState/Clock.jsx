@@ -8,11 +8,11 @@ export const Clock=()=>{
         time = new Date().toLocaleTimeString();
         setCtime(time);
     }
+    setIntervel(updateTime, 1000);
     return(
         <div>
             <h1>Digital Clock</h1>
             <h1>{ctime}</h1>
-            <button onClick={updateTime}>Get Time</button>
         </div>
     )
 }
