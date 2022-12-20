@@ -1,4 +1,4 @@
-import {Clock} from './component/useState/Clock';
+import {Alertcount} from './component/useEffect/Alertcount';
 
 
 
@@ -6,7 +6,7 @@ import {Clock} from './component/useState/Clock';
 function App() {
   return (
     <div className="App">
-  <Clock />
+  <Alertcount />
   
     </div>
   );
