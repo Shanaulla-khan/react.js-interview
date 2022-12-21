@@ -1,4 +1,5 @@
-import {Alertcount} from './component/useEffect/Alertcount';
+import {ToDo} from './component/useEffect/ToDo';
+
 
 
 
@@ -6,7 +7,8 @@ import {Alertcount} from './component/useEffect/Alertcount';
 function App() {
   return (
     <div className="App">
-  <Alertcount />
+  <ToDo />
+
   
     </div>
   );
