@@ -1,5 +1,5 @@
-import {ToDo} from './component/useEffect/ToDo';
-
+import {EShop} from './ecomp-app/EShop';
+import './ecomp-app/common.css';
 
 
 
@@ -7,7 +7,7 @@ import {ToDo} from './component/useEffect/ToDo';
 function App() {
   return (
     <div className="App">
-  <ToDo />
+  <EShop />
 
   
     </div>
